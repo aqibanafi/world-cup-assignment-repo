@@ -138,9 +138,19 @@
                                     font-size: 20px;
                                     line-height: 30px;
                                     padding: 15px 30px;
+                                    transition: 0.2s ease-in-out;
                                 }
                                 .three-button-upcoming:hover{
-                                    transform: scale(0)
+                                    padding: 30px 60px;
+                                    color: #DD0000;
+                                }
+                                .three-button-all-group:hover{
+                                    padding: 30px 60px;
+                                    color: #0e0e0e;
+                                }
+                                .three-button-blog:hover{
+                                    padding: 30px 60px;
+                                    color: #DD0000;
                                 }
                                 .three-button-all-group{
                                     background: #DD0000;
@@ -152,6 +162,7 @@
                                     line-height: 30px;
                                     color: #FFFFFF;
                                     padding: 15px 70px;
+                                    transition: 0.2s ease-in-out;
                                 }
                                 .three-button-blog{
                                     background: #FFFFFF;
@@ -164,6 +175,7 @@
                                     color: #161616;
                                     padding: 15px 95px;
                                     border: 1px solid #E8E8E8;
+                                    transition: 0.2s ease-in-out;
                                 }
                                 .blog-list{
                                     display: grid;

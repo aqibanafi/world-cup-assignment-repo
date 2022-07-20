@@ -139,6 +139,10 @@
     color: #161616;
     padding: 15px 30px;
 }
+.three-button-upcoming:hover{
+    padding: 30px 60px;
+    color: #DD0000;
+}
 .three-button-all-group{
     background: #FFFFFF;
     border-radius: 10px;
@@ -150,6 +154,10 @@
     color: #161616;
     padding: 15px 70px;
 }
+.three-button-all-group:hover{
+    padding: 30px 60px;
+    color: #DD0000;
+}
 .three-button-blog{
     background: #DD0000;
     border-radius: 10px;
@@ -160,6 +168,10 @@
     line-height: 30px;
     color: #FFFFFF;
     padding: 15px 95px;
+}
+.three-button-blog:hover{
+    padding: 30px 60px;
+    color: #1b1b1b;
 }
 .blog-list{
     display: grid;
