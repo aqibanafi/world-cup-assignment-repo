@@ -442,9 +442,21 @@ hr{
     .three-button-menu{
         
         background: none;
-        gap: 80px;
-        flex-direction: column;
+        gap: 50px;
+        flex-direction: row;
         margin-left: 150px;
+    }
+    .three-button-upcoming{
+        display: flex;
+        line-height: 30px;
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+    .three-button-all-group{
+        display: flex;
+        line-height: 30px;
+        font-size: 20px;
+        padding: 10px 50px;
     }
     
     .three-button-upcoming{
