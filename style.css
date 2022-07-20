@@ -211,6 +211,7 @@
     font-size: 16px;
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
+    /* --------------------------------------------------------------- */
 }
 .footer-bg{
 width: 100%;
@@ -219,7 +220,13 @@ background: #161616;
 display: flex;
 flex-direction: column;
 }
-.footer-bg p{
+.footer-text-items{
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+
+}
+/* .footer-bg p{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -230,7 +237,7 @@ color: #FFFFFF;
 position: absolute;
 left: 753px;
 margin-top: 50px;
-}
+} */
 .footer-bg a{
 text-decoration: none;
 font-family: 'Poppins';
@@ -252,9 +259,21 @@ color: #B9B9B9;
     justify-content: center;
     padding-top: 40px;
     margin-right: 100px;
+   
 }
 .footer-container {
     margin-bottom: 0;
+}
+.footer-text-items span{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+display: flex;
+text-align: center;
+justify-content: center;
+color: #FFFFFF;
 }
 hr{
     width: 1110px;
@@ -325,15 +344,6 @@ hr{
     }
     #for-tab{
         display: none;
-    }
-    #footer-title{
-        font-size: 40px;
-        line-height: 60px;
-        text-align: center;
-        color: #FFFFFF;
-        position: absolute;
-        margin-left: -125px;
-        margin-top: 141px;
     }
     .footer-menu{
         flex-direction: column;
@@ -413,22 +423,18 @@ hr{
     #for-tab{
         display: block;
         position: absolute;
-        left: 320px;
+        left: 350px;
         top: 3150px;
-    }
-    #footer-title{
-        font-size: 40px;
-        line-height: 60px;
-        text-align: center;
-        color: #FFFFFF;
-        position: absolute;
-        margin-left: -350px;
-        margin-top: 141px;
     }
     .footer-menu{
         flex-direction: column;
         align-items: center;
         gap: 25px;
+    }
+    .footer-text-items span{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 170px;
     }
     hr{
         display: none;
@@ -500,25 +506,21 @@ hr{
     #for-tab{
         display: none;
     }
-    #footer-title{
-        font-size: 40px;
-        line-height: 60px;
-        text-align: center;
-        color: #FFFFFF;
-        position: absolute;
-        margin-left: -570px;
-        margin-top: 141px;
-    }
     .footer-menu{
         flex-direction: column;
         align-items: center;
         gap: 25px;
     }
+    .footer-text-items span{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 170px;
+    }
     hr{
         display: none;
     }
     .social-media-icon{
-        margin-bottom: 130px;
+        margin-bottom: 180px;
         gap: 30px;
         margin-left: 100px;
     }
