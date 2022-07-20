@@ -502,6 +502,7 @@ hr{
         gap: 30px;
         margin-left: 100px;
 }
+}
                                
                                        /* Responsive Layout For Tab End  */
 
@@ -570,11 +571,13 @@ hr{
 .footer-menu{
         flex-direction: column;
         align-items: center;
-        gap: 25px;
+        gap: 15px;
+        margin-bottom: -30px;
+        
 }
 .footer-text-items span{
         position: absolute;
-        margin-top: 75px;
+        margin-top: 70px;
         margin-left: 190px;
         font-size: 30px;
 }
