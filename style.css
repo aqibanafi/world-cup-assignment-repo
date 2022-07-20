@@ -251,7 +251,7 @@ color: #B9B9B9;
     display: flex;
     gap: 60px;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 120px;
 }
 .social-media-icon{
     display: flex;
@@ -276,10 +276,10 @@ justify-content: center;
 color: #FFFFFF;
 }
 hr{
-    width: 1110px;
+    width: 900px;
     background:rgba(60, 59, 59, 0.347);
-    display: flex;
-    align-items: center;
+    position: absolute;
+    margin-top: 80px;
 }
 /* Responsive Layout For Laptop Start */
 @media only screen and (max-width: 1312px) and (min-width: 992px) {
